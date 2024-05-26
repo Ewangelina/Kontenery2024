@@ -1,0 +1,7 @@
+services:
+   app:
+      image: pm2019_httpd
+      stdin_open: true #-i
+      tty: true #-t
+      ports: 
+         - 8080:80
