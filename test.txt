@@ -1,2 +1,0 @@
-Robienie kontenera z docker compose
-docker compose up

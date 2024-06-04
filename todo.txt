@@ -1,5 +1,0 @@
-docker compose up
-
-w client
-docker build -t cli .
-docker run -it --rm -p 8000:3000 -v .:/tmp -w /tmp cli /usr/local/bin/npm run build
